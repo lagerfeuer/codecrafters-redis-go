@@ -33,6 +33,6 @@ func main() {
 			panic(err)
 		}
 
-		handle(conn)
+		go handle(conn)
 	}
 }
